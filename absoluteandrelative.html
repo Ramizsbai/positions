@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Absolute & Relative</title>
+</head>
+
+<style>
+    body {
+
+        background-color: rgb(239, 239, 239);
+
+    }
+ 
+    .absolute img[src="pic1.jpg"] {
+
+        position: absolute;
+        width: 600px;
+        margin-top: 90px;
+
+
+    }
+
+    .absolute img[src="pic2.jpg"] {
+
+        position: absolute;
+        width: 130px;
+        margin-top: 120px;
+        margin-left: 440px;
+        border: 2px solid gray;
+        border-radius: 2px;
+
+    }
+
+    .absolute h2 {
+
+        position: fixed;
+        border: 1px solid gray;
+        box-shadow: 4px 8px 7px #888888;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        width: 300px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        margin-top: 15px;
+        margin-left: 153px;
+        border-radius: 2px;
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .absolute h2:hover {
+
+        background-color: gray;
+        color: white;
+    }
+
+    .relative h2 {
+
+        position: fixed;
+        border: 1px solid gray;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        width: 300px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        margin-top: 15px;
+        margin-left: 740px;
+        border-radius: 2px;
+        box-shadow: 4px 8px 7px #888888;
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .relative h2:hover {
+
+        background-color: gray;
+        color: white;
+    }
+
+    .relative img[src="pic3.jpg"] {
+
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 91px;
+        right: 490px;
+    }
+
+    .relative img[src="pic4.jpg"] {
+
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 140px;
+        right: 150px;
+    }
+
+    .relative img[src="pic5.jpg"] {
+
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 94px;
+        left: 188px;
+
+    }
+
+    .relative img[src="pic6.jpg"] {
+
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 310px;
+        right: 10px;
+
+    }
+
+    .relative img[src="pic7.jpg"] {
+
+        width: 90px;
+        height: 105px;
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 275px;
+        left: 330px;
+
+    }
+
+    .relative img[src="pic8.jpg"] {
+
+        position: relative;
+        width: 160px;
+        float: right;
+        top: 310px;
+        left: 669px;
+    }
+
+
+</style>
+
+
+<body>
+
+
+
+
+    <div class="absolute">
+
+        <h2>Absolute Positioning </h2>
+        <img src="pic1.jpg" alt="pic1">
+        <img src="pic2.jpg" alt="pic2">
+
+
+    </div>
+
+    <div class="relative">
+
+        <h2>Relative Positioning</h2>
+        <img src="pic3.jpg" alt="pic3">
+        <img src="pic4.jpg" alt="pic4">
+        <img src="pic5.jpg" alt="pic5">
+        <img src="pic6.jpg" alt="pic6">
+        <img src="pic7.jpg" alt="pic7">
+        <img src="pic8.jpg" alt="pic8">
+
+    </div>
+
+        
+</body>
+
+</html>
